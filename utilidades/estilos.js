@@ -1,6 +1,9 @@
 import { StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
+  colorTextBtn: {
+    color: "#fff"
+  },
   btnAlert: {
     margin: 10,
     padding: 15,
@@ -21,7 +24,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
     borderRadius: 10
-  }
+  },
 });
 
   export default styles;
