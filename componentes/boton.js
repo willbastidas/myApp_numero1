@@ -8,8 +8,6 @@ export function Btn () {
         <TouchableOpacity styles={styles.btnParaContador} onPress={aumentarCont}>
             <Text styles={styles.btnParaContador}>Boton</Text>
         </TouchableOpacity>
-    
-    
     </>
     )
 }
