@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity} from 'react-native';
-import styles from "./estilos";
+import styles from "util/estilos";
 
 export default function App() {
   return (
