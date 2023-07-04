@@ -1,7 +1,7 @@
 import { StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
-  estiloContador: {
+  estiloTextCont: {
     marginTop: 5,
     marginBottom: 5, 
     fontSize: 40
@@ -9,11 +9,13 @@ const styles = StyleSheet.create({
   colorTextBtn: {
     color: "#fff"
   },
-  btnAlert: {
+  btnParaContador: {
     margin: 10,
     padding: 15,
     backgroundColor: '#EF3643',
     marginTop: 10,
+    borderRadius: 10,
+    color: "#fff"
   },
   estilosTexto:{
     marginBottom: 15,

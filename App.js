@@ -16,11 +16,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.estilosTexto}>Vamos a contar!!</Text>
-      <Text style={styles.estiloContador}>{contador}</Text>
+      <Text style={styles.estiloTextCont}>{contador}</Text>
       <StatusBar style="auto" />
       {/* <TextInput style={styles.textInput} placeholder='prueba de texto'/> */}
-      <TouchableOpacity styles={styles.btnAlerta} onPress={aumentarCont} >
-        <Text style={styles.btnAlert}>sumar de uno en 1</Text>
+      <TouchableOpacity styles={styles.btnParaContador} onPress={aumentarCont} >
+        <Text style={styles.btnParaContador}>sumar de uno en 1</Text>
       </TouchableOpacity>
     </View>
   );
